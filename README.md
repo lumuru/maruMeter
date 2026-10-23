@@ -33,13 +33,12 @@ A free Windows companion app for **Aion 2**:
 
 ## Getting started with the cube detector
 
-1. In maruMeter, click **Learn the cube sound…**
-2. Play a video of someone finding a Hidden Cube and pick your browser in **Listen to**.
-3. When the cube appears, press **Ctrl+Shift+C** (or click **Found it!**), check the result and click **Keep**.
-   One to three examples is enough.
-4. Play Aion 2. When the cube's hum is detected, the overlay shows **CUBE NEARBY ◄ LEFT · CLOSE**.
+maruMeter comes with a **built-in cube sound**, so there's nothing to set up: start it, play Aion 2, and when a cube's
+hum is detected the overlay shows **CUBE NEARBY ◄ LEFT · CLOSE**.
 
-You can also teach it in game: when you hear a cube, press **Ctrl+Shift+C** and maruMeter learns from the last 30 seconds.
+**Optional:** you can teach it your own recordings with **Learn the cube sound…** (or press **Ctrl+Shift+C** in game
+when you hear a cube, and it learns from the last 30 seconds). If anything goes wrong, **Reset sound** brings back the
+built-in sound.
 
 ![maruMeter](images/main-window.png)
 
