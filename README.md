@@ -20,6 +20,7 @@ A free Windows companion app for **Aion 2**:
      Click **More info → Run anyway**. Your browser may also ask whether to keep the file: choose **Keep**.
 2. **For the DPS meter**, install [Npcap](https://npcap.com/#download) with its default options, then restart maruMeter.
    Setup tells you if it's missing. The cube detector works without it.
+   **Using ExitLag?** That works too, as long as Npcap was installed with **"Support loopback traffic"** (on by default).
 3. Start maruMeter from the Start menu.
 
 **Update:** run the newer setup over the old one. Your settings and history are kept.
