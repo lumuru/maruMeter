@@ -6,6 +6,7 @@ A free Windows companion app for **Aion 2**:
   with which side it's on and how close. Made for players who can't easily hear it.
 - **DPS meter:** a live overlay with your party's damage, DPS and share in the current fight, plus your own skills.
 - **Fight history:** every fight is saved, so you can follow your DPS, share and rank in big fights over the days.
+- **Event reminders:** a card over the game and a soft chime before **Shugo Festa** and the **Space-Time Rift**.
 
 ![Cube alert](images/cube-alert.gif)
 
@@ -42,6 +43,19 @@ when you hear a cube, and it learns from the last 30 seconds). If anything goes 
 built-in sound.
 
 ![maruMeter](images/main-window.png)
+
+## Event reminders
+
+maruMeter reminds you **5 minutes before** and **when it starts**:
+
+- **Shugo Festa:** every hour, on the hour (on by default).
+- **Space-Time Rift:** every 3 hours: 02:00, 05:00 … 23:00 (turn it on under **Event reminders** in the main window).
+
+You can also pick 10 or 1 minute before, turn off the chime, or remind only while the game is running. Times follow
+your server's clock: maruMeter reads your server when you're in a party, guesses from your PC's time zone until then,
+or you can pick it yourself. These follow the game's schedule, so check in game that the event is open.
+
+![Event reminders](images/event-reminders.png)
 
 ## Privacy and safety
 
