@@ -6,6 +6,7 @@ A free Windows companion app for **Aion 2**:
   with which side it's on and how close. Made for players who can't easily hear it.
 - **DPS meter:** a live overlay with your party's damage, DPS and share in the current fight, plus your own skills.
 - **Fight history:** every fight is saved, so you can follow your DPS, share and rank in big fights over the days.
+- **Field boss timers:** every field boss's respawn countdown, which bosses are up right now, and a reminder before they spawn.
 - **Event reminders:** a card over the game and a soft chime before **Shugo Festa** and the **Space-Time Rift**.
 
 ![Cube alert](images/cube-alert.gif)
@@ -43,6 +44,21 @@ when you hear a cube, and it learns from the last 30 seconds). If anything goes 
 built-in sound.
 
 ![maruMeter](images/main-window.png)
+
+## Field boss timers
+
+Open **Field boss timers…** (under **Event reminders** in the main window, or **Field bosses…** in the tray menu) to see
+every field boss in Verteron, Altgard and the Abyss:
+
+- **UP**: the boss has spawned and isn't dead yet, so players are on it (and for how long).
+- **in 9:27**: the countdown to its next spawn, and when it was last killed.
+- **Should be up**: its spawn time passed while you were somewhere else.
+
+maruMeter reads the timers from the game while you're in a region, so each region fills in once you've been there.
+Timers you've seen are kept after you leave, even after a restart. Switch a boss on to get a card and a chime
+**5 minutes before it spawns** and when it's up.
+
+![Field boss timers](images/field-bosses.png)
 
 ## Event reminders
 
